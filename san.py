@@ -14,7 +14,7 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 current_time = datetime.now(timezone.utc).astimezone().isoformat()
 
-raid6 = psutil.disk_usage('/mnt')
+raid6 = psutil.disk_usage('/media/usb')
 
 influx_payload = [
     {
